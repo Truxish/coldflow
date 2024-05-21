@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("C:/Users/ishsr/Desktop/LIFE/Inventions/Projects/ColdFlow/coldflow/styles/theme.css");
+/* @import url("./styles/theme.css"); */
 
 @layer base {
   :root {
