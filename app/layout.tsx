@@ -9,6 +9,7 @@ import "./globals.css";
 import { Inter, Space_Grotesk } from "next/font/google";
 import type { Metadata } from "next";
 import { ThemeProvider } from "../context/ThemeProvider";
+import Navbar from "../components/shared/Navbar/Navbar";
 
 export const metadata: Metadata = {
   title: "Coldflow",
@@ -45,8 +46,8 @@ export default function RootLayout({
         <ClerkProvider
           appearance={{
             elements: {
-              formButtonPrimary: "primary-gradient",
-              footerActionLink: "primary-text-gradient hover:text-primary-500",
+              formButtonPrimary: "text-white-500",
+              footerActionLink: "text-violet-500 hover:text-primary-500",
             },
           }}
         >
